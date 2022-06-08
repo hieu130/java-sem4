@@ -1,5 +1,8 @@
 package fpt.aptech.t2009m1.controller;
 
+import fpt.aptech.t2009m1.entity.Product;
+import fpt.aptech.t2009m1.model.MySqlProductModel;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

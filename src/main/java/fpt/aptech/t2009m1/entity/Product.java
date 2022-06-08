@@ -1,5 +1,12 @@
 package fpt.aptech.t2009m1.entity;
 
+import fpt.aptech.t2009m1.entity.base.BaseEntity;
+import fpt.aptech.t2009m1.entity.myEnum.ProductStatus;
+import fpt.aptech.t2009m1.util.ValidationRegexHelper;
+
+import java.time.LocalDateTime;
+import java.util.HashMap;
+
 public class Product extends BaseEntity {
     private int id;
     private String name;
@@ -10,7 +17,7 @@ public class Product extends BaseEntity {
     private String manufactureEmail;
     private String manufacturePhone;
     private HashMap<String,String> errors;
-    public Product() {
+    public Product(int id, String name, String description, String detail, Double price, String thumbnail, String manufactureEmail, String manufacturePhone, LocalDateTime createdAt, LocalDateTime updatedAt, LocalDateTime deletedAt, int createdBy, int updatedBy, int deletedBy, ProductStatus status) {
         this.name = "";
         this.description = "";
         this.detail = "";

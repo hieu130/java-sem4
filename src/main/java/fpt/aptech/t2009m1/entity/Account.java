@@ -1,6 +1,7 @@
 package fpt.aptech.t2009m1.entity;
 
 import fpt.aptech.t2009m1.entity.base.BaseEntity;
+import fpt.aptech.t2009m1.entity.myEnum.ProductStatus;
 
 public class Account extends BaseEntity {
     private int id;
@@ -42,9 +43,9 @@ public class Account extends BaseEntity {
         this.password = password;
     }
 
-    public int getStatus() {
-        return status;
-    }
+//    public ProductStatus getStatus() {
+//        return status;
+//    }
 
     public void setStatus(int status) {
         this.status = status;

@@ -1,5 +1,7 @@
 package fpt.aptech.t2009m1.entity.base;
 
+import fpt.aptech.t2009m1.entity.myEnum.ProductStatus;
+
 import java.time.LocalDateTime;
 
 public abstract class BaseEntity {
@@ -29,10 +31,6 @@ public abstract class BaseEntity {
         this.deletedBy = deletedBy;
         this.status = status;
     }
-
-    public BaseEntity() {
-    }
-
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }

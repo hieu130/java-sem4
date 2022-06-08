@@ -2,6 +2,7 @@ package fpt.aptech.t2009m1.model;
 
 import fpt.aptech.t2009m1.constant.SqlConstant;
 import fpt.aptech.t2009m1.entity.Product;
+import fpt.aptech.t2009m1.entity.myEnum.ProductStatus;
 import fpt.aptech.t2009m1.util.ConnectionHelper;
 
 import java.sql.Connection;
@@ -10,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MySqlProductModel implements ProductModel{
     @Override

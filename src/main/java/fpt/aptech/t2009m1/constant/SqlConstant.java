@@ -9,4 +9,6 @@ public class SqlConstant {
     public static final String PRODUCT_UPDATE_STATUS = "UPDATE products SET status = ? WHERE id = ?";
     public static final String PRODUCT_FIND_BY_ID = "SELECT * FROM products WHERE id = ? AND status = ?";
     public static final String PRODUCT_FIND_ALL = "SELECT * FROM products WHERE status = ?";
+
+
 }
